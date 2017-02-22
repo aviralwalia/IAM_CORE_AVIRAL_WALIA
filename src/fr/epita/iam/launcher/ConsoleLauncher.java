@@ -63,6 +63,9 @@ public class ConsoleLauncher {
 		case "d":
 			listIdentities();
 			break;
+		case "e":
+			System.out.println("Thanks for using our application");
+			break;
 		default:
 			System.out.println("This option is not recognized ("+ answer + ")");
 			break;
